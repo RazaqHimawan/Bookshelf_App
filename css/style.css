@@ -1,0 +1,204 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #eef2e6;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.navbar-layout {
+  display: flex;
+  background-color: #1c6758;
+  padding: 5px 20px;
+}
+
+.appname {
+  font-size: 25px;
+  font-weight: 600;
+  margin: 10px auto;
+}
+
+.main-layout {
+  width: 960px;
+  margin: auto;
+  overflow: auto;
+}
+
+.button-layout {
+  display: flex;
+  justify-content: center;
+}
+
+.add-button {
+  font-size: 25px;
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 20px;
+  border: 5px inset #3d8361;
+}
+
+.add-button:hover {
+  border: 5px outset #3d8361;
+}
+
+.add-button:active {
+  font-weight: 600;
+}
+
+.box {
+  border-radius: 10px;
+  padding: 10px;
+  margin: 20px;
+  border: 5px inset #d6cda4;
+}
+
+h2 {
+  text-align: center;
+  margin: 10px;
+}
+
+.box > h3 {
+  color: #1c6758;
+  margin: 10px;
+}
+
+.content-layout {
+  border: 5px outset #d6cda4;
+}
+
+.form-section {
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+
+.form-layout {
+  display: none;
+  position: fixed;
+  border: 5px solid #1c6758;
+  background-color: #d6cda4;
+  border-radius: 10px;
+  padding: 0 20px;
+}
+
+.input,
+.input-inline > label {
+  font-weight: 600;
+}
+
+.form-button-layout > button > span {
+  font-weight: 600;
+}
+
+.form > .input > input {
+  padding: 0.4rem;
+  width: 100%;
+  margin: 5px 0;
+  border-radius: 5px;
+  outline: none;
+}
+
+.form-button-layout {
+  width: 350px;
+}
+.form-button {
+  display: block;
+  border: none;
+  border-radius: 5px;
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.completed-button,
+.undo-button,
+.submit {
+  background-color: rgb(182, 227, 136);
+}
+
+.completed-button:hover,
+.undo-button:hover,
+.submit:hover {
+  background-color: rgb(193, 240, 146);
+}
+
+.completed-button:active,
+.undo-button:active,
+.submit:active {
+  background-color: rgb(157, 202, 112);
+}
+
+.delete-button,
+.close {
+  background-color: rgb(221, 83, 83);
+}
+
+.delete-button:hover,
+.close:hover {
+  background-color: rgb(201, 77, 77);
+}
+
+.delete-button:active,
+.close:active {
+  background-color: rgb(189, 55, 55);
+}
+
+.search {
+  width: 100%;
+  background-color: #3d8361;
+}
+
+.search:hover {
+  background-color: #1c6758;
+}
+
+.search:active {
+  background-color: #19584c;
+}
+
+.box > form > .input > input {
+  padding: 0.4rem;
+  width: 100%;
+  margin: 5px 0;
+  border-radius: 5px;
+  outline: none;
+  text-align: center;
+}
+
+.book-container {
+  border: 5px inset #d6cda4;
+}
+
+article h3 {
+  color: #19584c;
+  margin: 0 10px;
+}
+
+article p {
+  margin: 10px;
+}
+
+.action-button {
+  margin: 0 10px;
+}
+
+.box-button {
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  margin-top: 5px;
+  margin-right: 10px;
+  cursor: pointer;
+  font-size: 16px;
+}
